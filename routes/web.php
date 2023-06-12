@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('inicio');
 
 Route::get('/sobre', function(){
     return view('sobre');
@@ -23,4 +23,13 @@ Route::get('/sobre', function(){
 
 Route::get('/nosotros', function(){
     return view('nosotros');
-});
+})->name('nosotros');
+
+Route::get('/login', function(){
+    return view ('login');
+})->name('login');
+
+
+
+
+

@@ -73,18 +73,18 @@
               </nav>
             </div>
             <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-              <a
-                href="{{route('login')}}"
-                class="py-3 px-7 text-base font-medium text-dark hover:text-primary"
-              >
+              <a href="{{route('login')}}"
+                class="rounded-lg bg-primary py-3 px-7 text-base font-medium text-white hover:bg-opacity-90">
                 Iniciar Session
               </a>
-              <a
+         
+              
+              <a href="{{route('register')}}"
                 href="javascript:void(0)"
-                class="rounded-lg bg-primary py-3 px-7 text-base font-medium text-white hover:bg-opacity-90"
-              >
+                class="rounded-lg bg-primary py-3 px-7 text-base font-medium text-white hover:bg-opacity-90">
                 Registrate
               </a>
+            
             </div>
           </div>
         </div>

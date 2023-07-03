@@ -406,7 +406,7 @@
                         cy="60.0003"
                         r="1.66667"
                         transform="rotate(-90 88.6667 60.0003)"
-                    [<64;54;22M[<64;54;22M[<64;54;22M    fill="#3056D3"
+                        fill="#3056D3"
                       />
                       <circle
                         cx="88.6667"
@@ -447,7 +447,7 @@
                         cx="103"
                         cy="60.0003"
                         r="1.66667"
-                [<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M        transform="rotate(-90 103 60.0003)"
+                        transform="rotate(-90 103 60.0003)"
                         fill="#3056D3"
                       />
                       <circle
@@ -468,7 +468,7 @@
                         cx="132"
                         cy="16.3333"
                         r="1.66667"
-    [<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M                    transform="rotate(-90 132 16.3333)"
+                        transform="rotate(-90 132 16.3333)"
                         fill="#3056D3"
                       />
                       <circle
@@ -488,7 +488,7 @@
                       <circle
                         cx="16.3333"
                         cy="45.3333"
-        [<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M                r="1.66667"
+                        r="1.66667"
                         transform="rotate(-90 16.3333 45.3333)"
                         fill="#3056D3"
                       />
@@ -528,7 +528,7 @@
                         fill="#3056D3"
                       />
                       <circle
-                        cx="60[<64;54;22M[<64;54;22M[<64;54;22M[<64;54;22M[<64;55;22M[<64;55;22M.3333"
+                        cx="60.3333"
                         cy="45.3338"
                         r="1.66667"
                         transform="rotate(-90 60.3333 45.3338)"
@@ -548,7 +548,7 @@
                         transform="rotate(-90 88.6667 45.3338)"
                         fill="#3056D3"
                       />
-                      <c[<64;55;22M[<64;55;22M[<64;55;21M[<64;55;21Mircle
+                      <circle
                         cx="88.6667"
                         cy="1.66683"
                         r="1.66667"
@@ -568,7 +568,7 @@
                         r="1.66667"
                         transform="rotate(-90 117.667 1.66683)"
                         fill="#3056D3"
-             [<64;55;19M[<64;55;19M[<64;54;18M[<64;54;18M[<64;53;16M[<64;53;16M[<64;53;15M[<64;53;15M         />
+                      />
                       <circle
                         cx="74.6667"
                         cy="45.3338"
@@ -588,7 +588,7 @@
                         cy="45.3338"
                         r="1.66667"
                         transform="rotate(-90 103 45.3338)"
-                        [<64;52;14M[<64;52;14Mfill="#3056D3"
+                        fill="#3056D3"
                       />
                       <circle
                         cx="103"
@@ -609,7 +609,7 @@
                         cy="1.66683"
                         r="1.66667"
                         transform="rotate(-90 132 1.66683)"
-            [<64;52;14M[<64;52;14M[<64;52;14M[<64;52;14M            fill="#3056D3"
+                        fill="#3056D3"
                       />
                     </svg>
                   </span>
@@ -623,13 +623,13 @@
                 Porque usar nuestros servicios?
               </span>
               <h2 class="mb-8 text-3xl font-bold text-dark sm:text-4xl">
-                Facilitar el proceso de pasantia es nuestra prioridad.
+                Optimiza al maximo el rendimiento de tu empresa!.
               </h2>
               <p class="mb-8 text-base text-body-color">
-            Nosotros somos los unicos que te ayudamos hacer tus horas sociales, seguimiento en vivo de tus proceso y validadcion de horas con universidades.
+                Nuestro sistema automatizado te ayudará generando estados de cuentas de forma automatica.
               </p>
               <p class="mb-12 text-base text-body-color">
-                Nuestra plataforma es totalmente gratis para estudiantes de universidades aliadas.
+                Nuestra plataforma ofrece una version de prueba, crea Api personalizadas, conecta tu DB con nuestro sistema de autogestion de forma segura y transparente.
               </p>
               <a
                 href="javascript:void(0)"
@@ -642,8 +642,10 @@
         </div>
       </div>
     </section>
-        <!-- ==[<64;52;14M[<64;52;14M[<64;52;14M[<64;52;14M[<64;53;14M[<64;53;14M==== Services Section End -->
+        <!-- ==== Services Section End -->
 
+ <!-- ====== Footer Section -->
+ @include('_footer')
 
 
         <script src="{{asset('js/funTailwinds.js')}}"></script>

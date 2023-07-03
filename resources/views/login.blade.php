@@ -108,6 +108,9 @@
   </div>
 </section>
 
+ <!-- ====== Footer Section -->
+ @include('_footer')
+
 
         <script src="{{asset('js/funTailwinds.js')}}"></script>
   </body>

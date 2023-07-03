@@ -6,6 +6,7 @@ use App\Http\Controllers\UniversidadController;
 use App\Models\Estudiante;
 use App\Models\Universidad;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Pdfcontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,9 +23,13 @@ Route::get('/', function () {
     return view('index');
 })->name('inicio');
 
-Route::get('/sobre', function () {
-    return view('sobre');
-});
+Route::get('/generador', function(){
+    return view ('generador');
+})->name('generador');
+
+Route::get('/contactanos', function(){
+    return view ('contactanos');
+})->name('contactanos');
 
 Route::get('/nosotros', function () {
     return view('nosotros');
@@ -38,6 +43,13 @@ Route::get('/register', function () {
     return view('register');
 })->name('register');
 
+
+Route::get('/payments', function(){
+    return view ('payments');
+})->name('payments');
+
+
+
 Route::post('/save', [EstudianteController::class, 'store'])->name('saveEstudiante');
 Route::get('/estudiante', [EstudianteController::class, 'index'])->name('getEstudiante');
 Route::get('/form', [EstudianteController::class, 'viewForm'])->name('formEstudiante');
@@ -45,3 +57,6 @@ Route::get('/form', [EstudianteController::class, 'viewForm'])->name('formEstudi
 
 Route::get('/carrera', [CarreraController::class, 'index'])->name('getCarrera');
 Route::get('/universidad', [UniversidadController::class, 'index'])->name('getUniversidad');
+
+
+Route::post('/generar-pdf', [Pdfcontroller::class, 'generarPDF']);

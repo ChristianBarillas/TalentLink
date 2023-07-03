@@ -55,10 +55,10 @@
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="{{route('generador')}}"
                       class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
                     >
-                      Progreso
+                      Generador
                     </a>
                   </li>
                   <li>
@@ -67,6 +67,15 @@
                       class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
                     >
                       Acerca
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="{{route('contactanos')}}"
+                      class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
+                    >
+                      Contactanos
                     </a>
                   </li>
                 </ul>

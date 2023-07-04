@@ -9,7 +9,7 @@
                 class="mb-6 inline-block max-w-[160px]"
               >
                 <img
-                  src="assets/images/logo/logo.svg"
+                  src="{{asset ('img/nosotros/logo.png')}}"
                   alt="logo"
                   class="max-w-full"
                 />

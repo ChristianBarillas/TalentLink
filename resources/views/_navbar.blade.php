@@ -14,7 +14,7 @@
           <div class="w-60 max-w-full px-4">
             <a href="javascript:void(0)" class="block w-full py-5">
               <img
-                src="assets/images/logo/logo.svg"
+                src="{{asset ('img/nosotros/logo.png')}}"
                 alt="logo"
                 class="w-full"
               />
